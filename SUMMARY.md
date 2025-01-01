@@ -2,5 +2,8 @@
 - [封面](cover.md)
 - [简介](README.md)
 - [组织一个Go项目](go_project.md)
+  -  [LICENSE](project/license.md)
   -  [代码版权](project/copyright.md)
+  -  [包注释](project/package_comments.md)
+  -  [简单的main函数](project/main.md)
 - [引用和致谢](references_and_thanks.md)

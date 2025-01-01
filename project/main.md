@@ -1,5 +1,5 @@
-# 代码版权
-每个文件头都应该有自己的版权声明
+# 简单的main函数
+main函数通常以main.go为入口
 
 ```go
 // Copyright 2024 The stonebirdjx. All rights reserved.
@@ -15,4 +15,21 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
+package main
+
+import (
+	_ "go.uber.org/automaxprocs"
+	"github.com/stonebirdjx/bluebird/cmd"
+)
+
+func main() {
+	cmd.Execute()
+}
+
 ```
+- 在容器环境中 存在 GOMAXPROCS 会错误识别容器 cpu 核心数的问题。必须引用
+`_ "go.uber.org/automaxprocs"`
+
+- 通常以命令参数作为启动逻辑，所有的逻辑写在cmd包中
+
