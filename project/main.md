@@ -1,6 +1,7 @@
 # 简单的main函数
-main函数通常以main.go为入口
+main函数作为程序入口，通常在main.go中
 
+> 一个go项目建议只有一个main包
 ```go
 // Copyright 2024 The stonebirdjx. All rights reserved.
 //
@@ -28,6 +29,7 @@ func main() {
 }
 
 ```
+
 - 在容器环境中 存在 GOMAXPROCS 会错误识别容器 cpu 核心数的问题。必须引用
 `_ "go.uber.org/automaxprocs"`
 
