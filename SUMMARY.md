@@ -8,4 +8,6 @@
   -  [简单的main函数](project/main.md)
 - [命令行参数](cmd_args.md)
 - [退出状态码](exit_code.md)
+- [面向接口编程](interface_code.md)
+- [依赖注入](dependency_injection.md)
 - [引用和致谢](references_and_thanks.md)
