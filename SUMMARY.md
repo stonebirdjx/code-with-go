@@ -9,7 +9,28 @@
 - [项目之初](beginning.md)
   - [命令行参数](beginning/cmd_args.md)
   - [退出状态码](beginning/exit_code.md)
-  - [面向接口编程](beginning/interface_code.md)
-  - [依赖注入](beginning/dependency_injection.md)
   - [配置文件](beginning/config_file.md)
+  - [面向接口编程](beginning/interface_code.md)
+  - [代码测试](beginning/code_test.md)
+  - [依赖注入](beginning/dependency_injection.md)
+  - [优雅停机](beginning/grace_shutdown.md)
+  - [CleanCode](beginning/clean_code.md)
+- [系统可观测](observable.md)
+  - [调用链](observable/trace.md)
+  - [指标](observable/metric.md)
+  - [日志](observable/log.md)
+- [系统高可用] 
+  - [插件化设计,可插拔]
+  - [系统服务]
+  - [系统记录RecordHistory]
+  - [系统存储]
+  - [任务处理]
+  - [系统变更通知listener]  
+  - [系统缓存]  
+  - [系统限速]  
+  - [系统安全](security.md)
+- [部署](deploy.md)
+  - [编译脚本](deploy/build.md)
+  - [Kubernetes](deploy/kubernetes.md)
+  - [Docker](deploy/docker.md)
 - [引用和致谢](references_and_thanks.md)
