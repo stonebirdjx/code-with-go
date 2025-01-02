@@ -6,4 +6,6 @@
   -  [代码版权](project/copyright.md)
   -  [包注释](project/package_comments.md)
   -  [简单的main函数](project/main.md)
+- [命令行参数](cmd_args.md)
+- [退出状态码](exit_code.md)
 - [引用和致谢](references_and_thanks.md)
