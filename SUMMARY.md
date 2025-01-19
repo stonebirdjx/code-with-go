@@ -33,4 +33,5 @@
   - [编译脚本](deploy/build.md)
   - [Kubernetes](deploy/kubernetes.md)
   - [Docker](deploy/docker.md)
+- [代码上云](code_cloud.md)
 - [引用和致谢](references_and_thanks.md)
