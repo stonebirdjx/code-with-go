@@ -48,6 +48,7 @@ func NewApp() *App {
 ```go  
 func NewApp(m Interface) *App {
     // 把声明放在外面去
+    // 我的责任就是创建一个 App 实例，我只需要一个 Interface 注册进去，至于这个 Interface 是怎么来的我不关心
     return &App{
         Methods: m,
     }
